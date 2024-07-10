@@ -1,0 +1,12 @@
+name = "NESFab"
+grammer = "nesfab"
+path_suffixes = ["fab"]
+line_comments = ["//"]
+# autoclose_before = ";:.,=}])>"
+# brackets = [
+#     { start = "{", end = "}", close = true, newline = true },
+#     { start = "[", end = "]", close = true, newline = true },
+#     { start = "(", end = ")", close = true, newline = true },
+#     { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+# ]
+# tab_size = 2
