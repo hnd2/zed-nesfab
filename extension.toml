@@ -12,4 +12,4 @@ language = "NESFab"
 
 [grammars.nesfab]
 repository = "https://github.com/hnd2/tree-sitter-nesfab"
-commit = "2b63c243bbc0c6cebf6e8b125d2c7b7423c6eb61"
+commit = "f9135244d887e60343e99d87b3069d322c57a526"
