@@ -1,15 +1,15 @@
 id = "nesfab"
 name = "NESFab"
-description = "NESFab support"
+description = "NESFab support."
 version = "0.1.0"
 schema_version = 1
-authors = ["hnd2 <hnd@example.com>"]
+authors = ["hnd2"]
 repository = "https://github.com/hnd2/zed-nesfab"
 
-[language_servers.nesfab]
-name = "NESFab LSP"
-language = "NESFab"
+# [language_servers.nesfab]
+# name = "NESFab LSP"
+# language = "NESFab"
 
 [grammars.nesfab]
 repository = "https://github.com/hnd2/tree-sitter-nesfab"
-commit = "f9135244d887e60343e99d87b3069d322c57a526"
+commit = "f17a14f34fc2b3e0b08828a99062529e63188102"
