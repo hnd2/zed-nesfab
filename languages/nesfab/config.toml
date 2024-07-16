@@ -1,5 +1,5 @@
 name = "NESFab"
-grammer = "nesfab"
+grammar = "nesfab"
 path_suffixes = ["fab", "mirofab"]
 line_comments = ["//"]
 block_comment = ["/*", "*/"]
