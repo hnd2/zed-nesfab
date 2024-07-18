@@ -12,4 +12,4 @@ repository = "https://github.com/hnd2/zed-nesfab"
 
 [grammars.nesfab]
 repository = "https://github.com/hnd2/tree-sitter-nesfab"
-commit = "7985f1477be3b80810f52f60d66ad8e83b208c0d"
+commit = "1aa3f2d09cf0ebf120333d0e2689732a440749d7"
