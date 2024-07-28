@@ -1,13 +1,24 @@
 name = "NESFab"
 grammar = "nesfab"
-path_suffixes = ["fab", "mirofab"]
+path_suffixes = ["fab"]
 line_comments = ["//"]
 block_comment = ["/*", "*/"]
-# autoclose_before = "}])"
-# brackets = [
-#     { start = "{", end = "}", close = true, newline = true },
-#     { start = "[", end = "]", close = true, newline = true },
-#     { start = "(", end = ")", close = true, newline = true },
-#     { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
-# ]
+autoclose_before = ".,=}])"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "string",
+        "comment",
+    ] },
+    { start = "/*", end = "*/", close = true, newline = false, not_in = [
+        "string",
+        "comment",
+    ] },
+]
+
 tab_size = 4
+auto_indent_using_last_non_empty_line = false
+# increase_indent_pattern = ":\\s*$"
+# decrease_indent_pattern = "^\\s*(else|elif|except|finally)\\b.*:"
