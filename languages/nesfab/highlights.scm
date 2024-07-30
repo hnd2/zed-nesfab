@@ -47,6 +47,7 @@
 ] @punctuation.delimiter
 
 [
+    "abs"
    "break"
    "case"
    "charmap"
@@ -63,6 +64,9 @@
    "if"
    "irq"
    "label"
+   "len"
+   "min"
+   "max"
    "mode"
    "nmi"
    "nmi_counter"
@@ -70,6 +74,7 @@
    "read"
    "ready"
    "return"
+   "sizeof"
    "struct"
    "swap"
    "switch"
