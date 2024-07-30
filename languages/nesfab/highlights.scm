@@ -1,4 +1,5 @@
 (type) @type
+(array_type) @type
 (identifier) @identifier
 
 (function_definition
@@ -54,6 +55,7 @@
    "chrrom"
    "continue"
    "ct"
+   "data"
    "default"
    "do"
    "else"
@@ -82,6 +84,7 @@
    "while"
    "write"
    (modifier)
+   (op_code)
 ] @keyword
 
 [
