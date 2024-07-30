@@ -7,6 +7,7 @@
 (call
     (identifier) @function
 )
+(asm_op_code) @function
 (file_expression
     "file" @function.special
 )
@@ -80,7 +81,6 @@
     "while"
     "write"
     (modifier)
-    (op_code)
 ] @keyword
 
 [
