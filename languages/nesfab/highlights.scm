@@ -1,27 +1,23 @@
 (type) @type
-(array_type) @type
 (identifier) @identifier
 
 (function_definition
-    function_name: (identifier) @function
+    (identifier) @function
 )
 (call
-    function_name: (identifier) @function
-)
-(goto_mode_statement
-    function_name: (identifier) @function
+    (identifier) @function
 )
 (file_expression
-    function_name: (identifier) @function.special
+    "file" @function.special
 )
 (macro_expression
-    function_name: (identifier) @function.special
+    "macro" @function.special
 )
 (mapfab_expression
-    function_name: (identifier) @function.special
+    "mapfab" @function.special
 )
 (audio_expression
-    function_name: (identifier) @function.special
+    "audio" @function.special
 )
 
 [
@@ -49,42 +45,42 @@
 
 [
     "abs"
-   "break"
-   "case"
-   "charmap"
-   "chrrom"
-   "continue"
-   "ct"
-   "data"
-   "default"
-   "do"
-   "else"
-   "fence"
-   "fn"
-   "for"
-   "goto"
-   "if"
-   "irq"
-   "label"
-   "len"
-   "min"
-   "max"
-   "mode"
-   "nmi"
-   "nmi_counter"
-   "omni"
-   "read"
-   "ready"
-   "return"
-   "sizeof"
-   "struct"
-   "swap"
-   "switch"
-   "vars"
-   "while"
-   "write"
-   (modifier)
-   (op_code)
+    "break"
+    "case"
+    "charmap"
+    "chrrom"
+    "continue"
+    "ct"
+    "data"
+    "default"
+    "do"
+    "else"
+    "fence"
+    "fn"
+    "for"
+    "goto"
+    "if"
+    "irq"
+    "label"
+    "len"
+    "min"
+    "max"
+    "mode"
+    "nmi"
+    "nmi_counter"
+    "omni"
+    "read"
+    "ready"
+    "return"
+    "sizeof"
+    "struct"
+    "swap"
+    "switch"
+    "vars"
+    "while"
+    "write"
+    (modifier)
+    (op_code)
 ] @keyword
 
 [

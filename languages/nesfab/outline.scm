@@ -6,6 +6,10 @@
     "vars" @context
     (group_identifier) @name) @item
 
+(data_definition
+    "data" @context
+    (group_identifier) @name) @item
+
 (function_definition
     "fn" @context
-    function_name: (identifier) @name) @item
+    (identifier) @name) @item
